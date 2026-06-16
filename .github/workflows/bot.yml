@@ -23,6 +23,7 @@ jobs:
       - name: Run
         env:
           USER: ${{ secrets.INSTA_USERNAME }}
+          PYTHONUNBUFFERED: "1"
         run: |
           sed -i "s/YOUR_USERNAME_HERE/$USER/g" auto-earn-tool/config.json
           cd auto-earn-tool && python3 server_bot.py || true
