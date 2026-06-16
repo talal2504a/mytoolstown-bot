@@ -1,9 +1,13 @@
 {
-  "instagram_username": "talal._.f5",
-  "headless": false,
-  "slow_mo": 300,
-  "max_earn_cycles": 0,
-  "follow_wait_time": 25,
-  "verify_wait_time": 5,
-  "cookies_file": "session.json"
+    "instagram_username": "YOUR_USERNAME_HERE",
+    "headless": true,
+    "slow_mo": 100,
+    "max_earn_cycles": 0,
+    "verify_wait_time": 3,
+    "cookies_file": "session.json",
+    "cycle_delay_min": 25,
+    "cycle_delay_max": 50,
+    "long_break_interval": 8,
+    "long_break_min": 120,
+    "long_break_max": 240
 }
