@@ -1,0 +1,9 @@
+{
+  "instagram_username": "talal._.f4rooq",
+  "headless": false,
+  "slow_mo": 300,
+  "max_earn_cycles": 0,
+  "follow_wait_time": 25,
+  "verify_wait_time": 5,
+  "cookies_file": "session.json"
+}
